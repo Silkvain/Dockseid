@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.bastionzero.omadock",
+  "name": "OmaDock",
+  "version": "0.1.0",
+  "author": "bastionzero",
+  "license": "MIT",
+  "description": "A macOS-style pill dock for Omarchy: shows running and pinned apps grouped by instance count, and themes itself from the active Omarchy theme with an optional independent override.",
+  "kinds": ["panel"],
+  "keepLoaded": true,
+  "entryPoints": { "panel": "Dock.qml" }
+}
