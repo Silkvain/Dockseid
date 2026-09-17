@@ -302,7 +302,7 @@ Item {
     visible: true
     color: "transparent"
 
-    WlrLayershell.namespace: "omadock-trigger"
+    WlrLayershell.namespace: "dockseid-trigger"
     // Top layer sits below a fullscreened window, so the hover strip would
     // be covered and unreachable there — Overlay stays above it, but only
     // while that's actually needed, so a non-fullscreen desktop is
@@ -331,7 +331,7 @@ Item {
     screen: surface.screen
     color: "transparent"
 
-    WlrLayershell.namespace: "omadock"
+    WlrLayershell.namespace: "dockseid"
     WlrLayershell.layer: surface.fullscreenOverride ? WlrLayer.Overlay : WlrLayer.Top
     WlrLayershell.keyboardFocus: WlrKeyboardFocus.None
     exclusionMode: surface.effectiveAlwaysVisible ? ExclusionMode.Auto : ExclusionMode.Ignore
@@ -473,7 +473,7 @@ Item {
     visible: true
     color: "transparent"
 
-    WlrLayershell.namespace: "omadock-popup-anchor"
+    WlrLayershell.namespace: "dockseid-popup-anchor"
     WlrLayershell.layer: surface.fullscreenOverride ? WlrLayer.Overlay : WlrLayer.Top
     WlrLayershell.keyboardFocus: WlrKeyboardFocus.None
     exclusionMode: ExclusionMode.Ignore

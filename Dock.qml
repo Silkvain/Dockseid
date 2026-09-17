@@ -5,13 +5,13 @@ import Quickshell.Wayland
 import qs.Commons
 import "DockModel.js" as DockModel
 
-// OmaDock: a persistent, macOS-style pill dock. Declared as a keepLoaded
+// Dockseid: a persistent, macOS-style pill dock. Declared as a keepLoaded
 // "panel" plugin so the shell mounts it once at startup and it stays visible
 // permanently, rather than being summoned/hidden like a popup.
 Item {
   id: root
 
-  property string stateDir: Quickshell.env("HOME") + "/.local/state/omadock"
+  property string stateDir: Quickshell.env("HOME") + "/.local/state/dockseid"
   property string statePath: root.stateDir + "/state.json"
 
   property var pinnedIds: []

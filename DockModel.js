@@ -1,11 +1,11 @@
-// Pure helpers for OmaDock's persisted state (~/.local/state/omadock/state.json).
+// Pure helpers for Dockseid's persisted state (~/.local/state/dockseid/state.json).
 // No Quickshell/QML singleton access here — Dock.qml owns anything that
 // needs DesktopEntries, Quickshell.iconPath, or ToplevelManager.
 
 .pragma library
 
 // Ship with the dock's best-feeling setup already on — someone installing
-// OmaDock for the first time should get a fully-featured, tasteful dock
+// Dockseid for the first time should get a fully-featured, tasteful dock
 // immediately, with the tweak knobs there for whoever wants to deviate
 // rather than being required to opt into what most people would want anyway.
 function defaultSettings() {

@@ -1,4 +1,4 @@
-# OmaDock
+# Dockseid
 
 A persistent, macOS-style pill dock for [Omarchy](https://omarchy.org). Shows
 your running and pinned apps, groups every window of an app under one icon,
@@ -57,13 +57,13 @@ Or for local development, clone/symlink this folder into
 `~/.config/omarchy/plugins/<id>/` and run:
 
 ```sh
-omarchy plugin enable io.github.bastionzero.omadock
+omarchy plugin enable io.github.silkvain.dockseid
 ```
 
 ## Configuration
 
 All settings (pinned apps, shape, opacity, theme mode, custom colors) are
-stored in `~/.local/state/omadock/state.json` and edited through the dock's
+stored in `~/.local/state/dockseid/state.json` and edited through the dock's
 own gear-icon popover — there's nothing to hand-edit.
 
 ## License
